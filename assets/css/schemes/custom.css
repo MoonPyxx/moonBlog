@@ -7,28 +7,34 @@
     --color-neutral-500:    0,75,35;
     --color-neutral-600:    0,50,23;
     --color-neutral-700:    0,24,11;
-    --color-neutral-800:    0,24,11; 
+    --color-neutral-800:    0,24,11;
     --color-neutral-900:    0,0,0;
+    --color-primary-50:     255,255,255;
+    --color-primary-100:    236,255,227;
+    --color-primary-200:    184,255,150;
+    --color-primary-300:    132,255,74;
+    --color-primary-400:    80,252,0;
+    --color-primary-500:    56,176,0;
+    --color-primary-600:    48,151,0;
+    --color-primary-700:    40,125,0;
+    --color-primary-800:    40,125,0;
+    --color-primary-900:    7,23,0;
+    --color-secondary-50:     255,255,255;
+    --color-secondary-100:    239,248,252;
+    --color-secondary-200:    173,220,242;
+    --color-secondary-300:    107,192,231;
+    --color-secondary-400:    41,164,220;
+    --color-secondary-500:    26,117,159;
+    --color-secondary-600:    22,101,137;
+    --color-secondary-700:    19,85,115;
+    --color-secondary-800:    19,85,115;
+    --color-secondary-900:    4,20,28;
+    }
     
-    --color-primary-50:     57,255,20; 
-    --color-primary-100:    57,255,20; 
-    --color-primary-200:    57,230,20; 
-    --color-primary-300:    57,205,20; 
-    --color-primary-400:    57,180,20; 
-    --color-primary-500:    57,155,20; 
-    --color-primary-600:    57,130,18;
-    --color-primary-700:    57,105,16;
-    --color-primary-800:    57,80,14; 
-    --color-primary-900:    57,55,12;  
-    
-    --color-secondary-50:   57,255,20; 
-    --color-secondary-100:  57,230,20; 
-    --color-secondary-200:  57,205,20; 
-    --color-secondary-300:  57,180,20; 
-    --color-secondary-400:  57,155,20; 
-    --color-secondary-500:  57,130,18; 
-    --color-secondary-600:  57,105,16; 
-    --color-secondary-700:  57,80,14;  
-    --color-secondary-800:  57,55,12; 
-    --color-secondary-900:  57,30,10;
-}
+    @font-face {
+        font-family: moderndos;
+        src: url('/fonts/moderndos.ttf');
+    }
+    html {
+        font-family: moderndos;
+    }
