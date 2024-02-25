@@ -32,9 +32,10 @@
     }
     
     @font-face {
-        font-family: moderndos;
+        font-family: modernDOS;
         src: url('/fonts/moderndos.ttf');
     }
-    html {
-        font-family: moderndos;
+
+    body {
+        font-family: modernDOS;
     }
